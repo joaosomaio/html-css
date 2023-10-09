@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('/01-FONTE/easvhs.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Menu';
+    src: url(/01-FONTE/Bebas-Regular.otf) format('opentype');
+    font-weight: normal;
+}
+/* CORES PRINCIPAIS
+
+
+Varialvel cor0: Amarelo
+Varialvel cor1: Azul
+Varialvel cor2: Brabco fumaça
+Varialvel cor3: Sombra
+Varialvel cor4:
+
+*/
+
+:root {
+    --cor0: #343432d6;
+    --cor1: #000000;
+    --cor2: #f5f5f5;
+    --cor3: #22222294;
+    --fonte00: 'Titulo';
+    --fonte01: 'Menu';
+}
+
+
+
+body{ 
+
+    background-color: var(--cor2);
+    color:var(--cor1);
+
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+    padding-bottom: 0px;
+
+    border: var(--cor2);
+
+
+
+
+}
+
+
+
+main{
+
+    background-image: linear-gradient(  #f5f5f5, #adadad, #ffffff  );
+
+    min-width: 200px;
+    max-width: 1500px;
+
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: auto;
+
+    max-width: 1400px;
+    min-width: 320px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+nav#menu,menu2{
+
+    background-color: var(--cor1);
+    color: var(--cor2);
+
+    border-radius: 0px 0px 20px 20px ;
+
+
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align:center;
+
+    font-size: 33px;
+
+    box-shadow: 02px 03px 02px var(--cor3);
+
+}
+
+picture > img{
+
+    width: 100%;
+
+
+}
+
+.item{
+
+    color: var(--cor2);
+
+    text-decoration: none;
+
+    font-family: var(--fonte01);
+
+    font-size:130%;
+
+    
+
+    
+
+
+}
+
+.paragrafo{
+
+    font-size: 20px;
+    text-indent: 30px;
+    text-align: justify;
+
+}
+
+h1{
+
+    font-family: var(--fonte01);
+    font-size: 30px;
+
+    text-align: center;
+
+}
+
+
+ul{
+
+    background-color: var(--cor2);
+
+    border-radius: 20px 0px 20px 0px ;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+    display: block;
+
+    box-shadow: 02px 03px 02px var(--cor3);
+
+
+
+}
+
+li{
+    font-size: 20px;
+}
+
+a:hover{
+
+    color: #888786;
+
+
+
+}
+
+div.video{
+
+    margin: 5px;
+
+    padding: 10px;
+    padding-bottom: 50%;
+
+    position: relative;
+}
+
+div.video > iframe{
+
+    position: absolute;
+    
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+footer{
+
+    background-color: var(--cor1);
+    color: var(--cor2);
+
+    border-radius: 20px 20px 0px 0px ;
+
+    height: 80px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+
+    box-shadow: 02px 03px 02px var(--cor3);
+
+}
+
+
+
+
